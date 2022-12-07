@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>30301 강수민	</title>
+</head>
+<body>
+	<form action="login.jsp" method="post">
+		<fieldset>
+			<legend>회원가입 정보</legend>
+			ID : <input type="text" name="id" autofocus value="ㅋㅋㅋㅋㅋ호수 바보" readonly > <br>
+			PW : <input type="password" name="pw" placeholder="장호수는 바보이다." required disabled> <br>
+			Email : <input type="email" name="email"> <br>
+			Number : <input type="tel" placeholder="ex) 010-0000-0000"> <br>
+			성별 : 
+				남자 <input type="radio" name="gender" value="man">
+				여자 <input type="radio" name="gender" value="woman"> 
+				그외 <input type="radio" name="gender" value="etc" checked>
+			<br>
+
+			좋아하는 음식 :
+				<input type="checkbox"> 치킨
+				<input type="checkbox"> 피자
+				<input type="checkbox"> 족발
+				<input type="checkbox"> 떡볶이
+				<input type="checkbox"> 햄버거
+				<input type="checkbox"> 냉면
+				<input type="checkbox"> 닭가슴살
+	 			<br>
+
+	 			<select>
+				<option selected>선택</option>
+				<option>A형</option>
+				<option>B형</option>
+				<option>C형</option>
+				<option>AB형</option>
+				<option>O형</option>
+			</select>
+		</fieldset>
+
+ 		<fieldset>
+	 			<legend>선택 정보</legend>
+			검색어 : <input type="search"> <input type="submit" value="검색"> <br>
+			파일업로드 : <input type="file" name=""> <br>
+			<input type="image" src="img/btn_class.png"> <br>
+
+			QnA <br>
+			<textarea rows="6" cols="80" placeholder="메세지 입력"></textarea>
+			<br>
+			3대 능력 측정 : <input type="range" min="0" max="500" step="1">
+		</fieldset>
+
+		<br>
+		<input type="submit" value="확인">
+		<input type="reset" value="취소">
+
+	</form>
+</body>
+</html>
+
+<!-- select -> option 꼭 같이 작성하도록! -->

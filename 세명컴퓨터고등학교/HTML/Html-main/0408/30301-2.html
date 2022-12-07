@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>30301 강수민	</title>
+</head>
+<body>
+	<form action="login.jsp" method="post">
+		<fieldset>
+			<legend>로그인 정보</legend>
+
+			<ol>
+				<li>아이디<input type="text" name="id" autofocus><input type="submit" value="중복확인"> </li>
+				<li>비밀번호<input type="password" name="pw"> </li>
+				<li>비밀번호 확인<input type="password"></li>
+				<li>회원등급<input type="text" value="준회원"></li>
+			</ol>
+		</fieldset>
+
+ 		<fieldset>
+	 			<legend>개인 정보</legend>				
+			
+
+	 			<ol>
+	 				<li>이름<input type="text" placeholder="8자미만 공백없이" ></li>
+	 				<li>메일 주소<input type="email" placeholder="adcd@domain.con"></li>
+	 				<li>연락처<input type="tel" placeholder="010-0000-0000"></li>
+	 				<li>성별
+						<select>
+							<option>선택</option>
+							<option selected>남성</option>
+							<option>여성</option>
+						</select>
+					</li>
+	 				<li>
+						취미생활을 선택하세요(복수선택가능) <br>
+						<input type="checkbox"> 영화 감상
+						<input type="checkbox"> 게임
+						<input type="checkbox"> 자전거타기
+						<input type="checkbox"> 노래부르기
+						<input type="checkbox"> 스포츠활동</li>
+					<li>공개여부 설정
+						<input type="radio" name="gender" value="공개" checked> 공개
+						<input type="radio" name="gender" value="비공개"> 비공개</li>
+	 			</ol>
+		</fieldset>
+		<fieldset>
+			<legend>코딩 숙련도(상,중,하)</legend>
+			1. <input type="range" min="0" max="500" step="1"> <br>
+		</fieldset>
+
+		<br>
+		<input type="submit" value="제출">
+		<input type="reset" value="취소">
+
+	</form>
+</body>
+</html>
+
+<!-- select -> option 꼭 같이 작성하도록! -->

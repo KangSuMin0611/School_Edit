@@ -1,0 +1,35 @@
+ @charset "uft-8";
+
+.container{
+	margin: 50px auto;
+	width: 500px;
+	background-color: #fdd;
+	border: 5px solid #caa;
+	padding: 10px
+}
+
+.greentea{
+	float: left;
+	width:	200px;
+	background-color: #dda;
+	border: 1px dotted green;
+	padding: 15px;
+}
+
+.coffee{
+	float: right;
+	width:	200px;
+	background-color: #ba8;
+	border: 1px dotted brown;
+	padding: 15px;
+}
+
+.container:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+h1{
+	text-align: center;
+}

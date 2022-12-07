@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/0607-3.css">
+</head>
+<body>
+	<div id="container">
+	<h3>회원가입</h3>
+<form action="post">
+	<ul id="signup">
+		<li>
+			<ul class="cols">
+				<li class="col1">아이디</li>
+				<li class="col2"> <input type="text" name="id"> </li>
+			</ul>
+		</li>
+		<li>
+			<ul class="cols">
+				<li class="col1">비밀번호</li>
+				<li class="col2"> <input type="password" name="pw"> </li>
+			</ul>
+		</li>
+		<li>
+			<ul class="cols">
+				<li class="col1">비밀번호 확인</li>
+				<li class="col2"> <input type="password" name="pw2"> </li>
+			</ul>
+		</li>
+		<li>
+			<ul class="cols">
+				<li class="col1">이름</li>
+				<li class="col2"> <input type="text" name="name"> </li>
+			</ul>
+		</li>
+		<li>
+			<ul class="cols">
+				<li class="col1">이메일</li>
+				<li class="email"> <input type="email"> @ </li>
+				<li> 
+					<select>
+						<option>직접입력</option>
+						<option>naver.com</option>
+						<option>gmail.com</option>
+					</select>
+				</li>
+			</ul>
+		</li>
+		<li>
+			<ul class="cols">
+				<li class="col1">이메일 수신</li>
+				<li> <input type="radio" name="s1" checked >비수신 <input type="radio" name="s1">수신 </li>
+			</ul>
+		</li>
+		<li>
+			<ul class="cols">
+				<li class="col1">가입 경로</li>
+				<li> <input type="checkbox" name="s2" >친구추천 <input type="checkbox" name="s2"> 인터넷 검색	<input type="checkbox" name="s2">기타 </li>
+			</ul>
+		</li>
+		<li>
+			<ul class="cols">
+				<li class="col1 hello">인사말</li>
+				<li> <textarea rows="5" cols="60"></textarea> </li>
+			</ul>
+		</li>
+	</ul>
+	<div class="buttons">
+		<input type="submit" name="s3" value="저장하기">
+		<input type="reset" name="s4" value="취소하기"> 
+	</div>
+</form>
+</div>
+</body>
+</html>

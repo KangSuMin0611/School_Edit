@@ -1,0 +1,53 @@
+@charset "utf-8";
+*{
+	padding: 0;
+	margin: 0;
+}
+#container{
+	width: 600px;
+	margin: 0 auto;
+}
+li{
+	list-style-type: none;
+}
+h3, #signup{
+	margin: 20px 0 0;
+}
+#signup{
+	width: 480px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 20px;
+}
+.cols{
+	padding: 5px;
+}
+.cols li{
+	display: inline-block;
+}
+.col1{
+	width: 120px;
+}
+.col2 input, select{
+	width: 200px;
+	height: 28px;
+}
+.email input{
+	width: 100px;
+	height: 25px;
+}
+textarea{
+	width: 320px;
+	height: 100px;
+}
+.hello{
+	vertical-align: top;
+}
+.buttons{
+	width: 510px;
+	text-align: right;
+}
+.buttons input{
+	padding: 8px 20px;
+	margin-top: 20px;
+}
