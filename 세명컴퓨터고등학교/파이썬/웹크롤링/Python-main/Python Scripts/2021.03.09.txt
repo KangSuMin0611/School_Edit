@@ -1,0 +1,5 @@
+pip install jupyterlab
+pip install requests
+pip install beautifulsoup4
+
+jupyter notebook --> 환경에서 2개 도구 사용
