@@ -1,0 +1,19 @@
+1. IDE 설치, nodejs 설치(LTS)
+2. 관리자권한 cmd -> node -v, npm -v
+3. npm install -g cordova ionic@3.19.0
+-------------프로젝트 생성
+4. 원하는 위치 변경(ex: c:\Projects\ionic)
+5. -> ionic start 프로젝트명 옵션(blank)
+6. 질문
+	1) CLI 버전 UPDATE - N
+	2) iOS와 Android를 포함할건가요? - Y
+	3) 아이오닉 프로 서비스를 이용하실건가요? - N
+-------------프로젝트 생성 끝
+7. 워치변경) (ex: C:\Projects\ionic\sample > ionic serve)
+8. vs code에서 -sample 폴더 열기
+
+***> ionic 명령어 에러시 powershell(관리자)에서 해결
+> get-executionpolicy
+-> restructed 결과
+>set-executionpolicy RemoteSigned
+-> 변경 선택 y
